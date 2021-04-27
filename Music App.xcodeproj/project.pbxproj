@@ -13,6 +13,10 @@
 		C4339F242638020300163A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4339F222638020300163A29 /* Main.storyboard */; };
 		C4339F262638020400163A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4339F252638020400163A29 /* Assets.xcassets */; };
 		C4339F292638020400163A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4339F272638020400163A29 /* LaunchScreen.storyboard */; };
+		C4339F352638044600163A29 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4339F322638044600163A29 /* song2.mp3 */; };
+		C4339F362638044600163A29 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4339F332638044600163A29 /* song3.mp3 */; };
+		C4339F372638044600163A29 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4339F342638044600163A29 /* song1.mp3 */; };
+		C4339F3A263809DB00163A29 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4339F39263809DB00163A29 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C4339F252638020400163A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4339F282638020400163A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4339F2A2638020400163A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4339F322638044600163A29 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		C4339F332638044600163A29 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		C4339F342638044600163A29 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		C4339F39263809DB00163A29 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		C4339F1B2638020300163A29 /* Music App */ = {
 			isa = PBXGroup;
 			children = (
+				C4339F3E263815C300163A29 /* Audio */,
 				C4339F1C2638020300163A29 /* AppDelegate.swift */,
 				C4339F1E2638020300163A29 /* SceneDelegate.swift */,
 				C4339F202638020300163A29 /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				C4339F252638020400163A29 /* Assets.xcassets */,
 				C4339F272638020400163A29 /* LaunchScreen.storyboard */,
 				C4339F2A2638020400163A29 /* Info.plist */,
+				C4339F39263809DB00163A29 /* PlayerViewController.swift */,
 			);
 			path = "Music App";
+			sourceTree = "<group>";
+		};
+		C4339F3E263815C300163A29 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C4339F342638044600163A29 /* song1.mp3 */,
+				C4339F322638044600163A29 /* song2.mp3 */,
+				C4339F332638044600163A29 /* song3.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4339F352638044600163A29 /* song2.mp3 in Resources */,
+				C4339F372638044600163A29 /* song1.mp3 in Resources */,
 				C4339F292638020400163A29 /* LaunchScreen.storyboard in Resources */,
+				C4339F362638044600163A29 /* song3.mp3 in Resources */,
 				C4339F262638020400163A29 /* Assets.xcassets in Resources */,
 				C4339F242638020300163A29 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4339F212638020300163A29 /* ViewController.swift in Sources */,
+				C4339F3A263809DB00163A29 /* PlayerViewController.swift in Sources */,
 				C4339F1D2638020300163A29 /* AppDelegate.swift in Sources */,
 				C4339F1F2638020300163A29 /* SceneDelegate.swift in Sources */,
 			);
